@@ -1,0 +1,1 @@
+alert('this code from externel file');
