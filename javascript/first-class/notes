@@ -2,3 +2,64 @@ javascript 2 tareqon se use karsakte hen
 
 1) internel 
 2) externel
+
+* uses of javascript
+
+1)JavaScript Can Change HTML Content
+2)JavaScript Can Change HTML Attribute Values
+3)JavaScript Can Change HTML Styles (CSS)
+4)JavaScript Can Hide HTML Elements
+5)JavaScript Can Show HTML Elements
+
+* JavaScript Output
+
+1)Writing into an HTML element, using innerHTML.
+2)Writing into an alert box, using alert().
+3)Writing into the browser console, using console.log().
+
+
+* JavaScript Programs
+
+A computer program is a list of "instructions" to be "executed" by a computer.
+In a programming language, these programming instructions are called statements.
+A JavaScript program is a list of programming statements.
+
+In HTML, JavaScript programs are executed by the web browser.
+The statements are executed, one by one, in the same order as they are written.
+
+
+* Semicolons ;
+
+Semicolons separate JavaScript statements.
+Add a semicolon at the end of each executable statement:
+
+let a, b, c;  // Declare 3 variables
+a = 5;        // Assign the value 5 to a
+b = 6;        // Assign the value 6 to b
+c = a + b;    // Assign the sum of a and b to c
+
+When separated by semicolons, multiple statements on one line are allowed:
+a = 5; b = 6; c = a + b;
+
+
+* JavaScript Keywords
+JavaScript keywords are used to identify actions to be performed.
+
+The let keyword tells the browser to create variables:
+let x, y;
+
+
+* JavaScript Comments
+Code after double slashes // or between /* and */ is treated as a comment.
+Comments are ignored, and will not be executed:
+
+let x = 5;   // I will be executed
+// x = 6;   I will NOT be executed
+
+
+* JavaScript is Case Sensitive
+
+The variables lastName and lastname, are two different variables:
+let lastname, lastName;
+lastName = "Doe";
+lastname = "Peterson";
