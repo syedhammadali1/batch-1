@@ -63,3 +63,26 @@ The variables lastName and lastname, are two different variables:
 let lastname, lastName;
 lastName = "Doe";
 lastname = "Peterson";
+
+varibles are 3 types
+
+1) var
+2) let
+3) const 
+
+var firstName = syed;
+let firstName = syed;
+const firstName = syed;
+
+var
+
+global scope hota he
+
+let 
+
+block scope
+
+const
+
+1) block scope
+2) constant

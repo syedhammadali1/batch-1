@@ -6,4 +6,13 @@ let lastname, lastName;
 lastName = "Peterson";
 lastname = "Doe";
 
-console.log(lastname,'lastname');
+
+
+if(true){
+    // let color = 'yellow';
+    // color = 'red';
+
+    const color = 'yellow';
+    color = 'red';
+    console.log(color,'color');
+}
