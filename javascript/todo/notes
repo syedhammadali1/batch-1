@@ -1,0 +1,11 @@
+DOM
+
+document object model
+
+there are 2 ways to store data in browser in javascript.
+
+1) local storage
+2) session storage
+
+session storage data delete after closing tab
+local storage me data baqi rehta he. 
