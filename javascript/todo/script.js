@@ -12,4 +12,34 @@ function addTask(){
     document.getElementById('taskInput').value = '';
   }
   // console.log(element);
+  showTasks();
+}
+
+
+function showTasks(){
+  let tasklist = document.getElementById('taskList');
+  tasklist.innerHTML= '';
+  let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+
+  tasks.forEach(function (task, index) {
+    const li = document.createElement('li');
+    li.innerHTML =`
+    <span>${task.task}</span>
+    <button onclick="removeTask(${index})">Remove</button>
+`;
+    let tasklist = document.getElementById('taskList');
+    tasklist.append(li);
+  });
+
+}
+
+showTasks();
+
+
+function removeTask(index){
+  let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+  tasks.splice(index,1);
+  localStorage.setItem('tasks', JSON.stringify(tasks));
+  showTasks()
+
 }
